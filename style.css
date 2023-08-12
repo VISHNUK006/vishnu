@@ -1,0 +1,308 @@
+* {
+    font-family: poppins, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(247, 236, 81);
+}
+.device-width{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: url(/images/bg.jpg);
+    background-size: cover;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+img{
+    width:100px;
+    border: 50% solid;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(243, 89, 89, 0.5);
+    margin-top: 50px;
+    float: left;
+    margin-left: 10px;
+}
+.nav{
+    margin-top: 90px;
+    display: flex;
+    justify-content:right;
+    float:right;
+    margin-right: 60px;
+}
+.nav li{
+    display:inline-block;
+    list-style: none;
+}
+
+.nav li a{
+    text-decoration: none;
+    color: #eb3535;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 25px 55px;
+    border-radius: 5px;
+}
+
+.nav li a:hover{
+    background-color: #0d75a8;
+    color: rgb(147, 248, 89);
+    transition: 1s;
+}
+.nav button{
+    border: none;
+    outline: none;
+    color: white;
+    position: absolute;
+    right:3%;
+    border-radius: 5px;
+    margin-top: 0px;
+}
+
+.nav button:hover{
+    background-color: rgb(147, 248, 89);
+    transition: 1s;
+}
+.title{
+    position: absolute;
+    margin-top: 280px;
+    left:34%;
+    right:34%;
+}
+
+.title h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(147, 248, 89);
+    text-shadow: 0 0 10px rgba(243, 89, 89, 0.5);
+    text-align: center;
+    padding-right: 0%;
+}
+
+.title p{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(15, 107, 136);
+    text-shadow: 0 0 10px rgba(243, 89, 89, 0.5);
+    text-align: center;
+    padding-right: 0%;
+}
+.header{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    background-image: url(/images/bgg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logo{
+    position:relative;
+    left:41%;
+    align-content: center;
+    margin-top: 200px;  
+    margin-bottom: 200px;
+    width:320px;
+    border: 50% solid;
+    height: 350px;
+    background:linear-gradient(rgb(59, 44, 218), rgb(144, 10, 10));
+    border-radius: 5%;
+    box-shadow: 0 0 10px rgba(243, 89, 89, 0.5);
+}
+.logo h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+}
+.logo label{
+    width:100px;
+    border: none;
+    padding: 10px;
+    padding-bottom: 6px;
+}
+.logo textarea{
+    width:150px;
+    height:20px;
+    border: 5px solid ;
+    outline: none;
+    border-bottom: 5px solid rgb(93, 212, 24);
+    padding: 10px;
+    align-items: center;
+}
+.logo input{
+    border:5px solid;
+    outline: none;
+    border-bottom: 5px solid rgb(93, 212, 24);
+    margin-bottom: 8px;
+    width:150px;
+    height: 20px;
+    align-items: center;
+}
+.logo button{
+    border: none;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+    float:center;
+    margin-top: 8px;
+    margin-left: 41%;
+}
+.logo input:hover{
+    background-color: rgb(52, 189, 189);
+    transition: 0.5s;
+    box-shadow: 0 0 10px rgba(120, 21, 21, 0.5);
+}
+
+.logo textarea:hover{
+    background-color: rgb(226, 38, 186);
+    transition: 0.5s;
+    box-shadow: 0 0 10px rgba(120, 21, 21, 0.5);
+}
+
+.logo button:hover{
+    background-color:rgb(47, 28, 192);
+    transition: 0.5s;
+    box-shadow: 0 0 10px rgba(120, 21, 21, 0.5);
+}
+.fill{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    background: linear-gradient(rgba(197, 222, 151, 0.9),rgba(236, 120, 120, 0.5))  ,url(/images/pexels-christian-heitz-842711.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.fill h1{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 600;
+    color: rgb(147, 248, 89);
+    text-shadow: 0 0 10px rgba(243, 89, 89, 0.5);
+    margin-top: 20px;
+    position: absolute;
+    margin-left: 34%;
+}
+.fill h2{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 600;
+    color: rgb(147, 248, 89);
+    text-shadow: 0 0 10px rgba(243, 89, 89, 0.5);
+    margin-top: 150px;
+    position: absolute;
+    margin-left: 20%;
+}
+.fill h3{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 600;
+    color: rgb(147, 248, 89);
+    text-shadow: 0 0 10px rgba(243, 89, 89, 0.5);
+    margin-top: 270px;
+    position: relative;
+    margin-left: 30%;
+}
+.content{
+    margin-bottom: 30px;
+    margin-left: 30%;
+    position: absolute;
+    margin-top: 500px;
+}
+.content button{
+    width:100px;
+    height: 100px;
+    border: none;
+    outline: none;
+    display: inline-block;
+    border-radius: 50%;
+}
+.content img{
+    margin-bottom: 50px;
+    margin-top: 0px;
+    right: 9%;
+    position: relative;
+}
+.theme{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    background-image: url(/images/pexels-frank-cone-2258536.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about{
+    width: 300px;
+    height: 300px;
+    border: 5px solid;
+    border-radius: 5%;
+    margin-left: 5%;
+    margin-top: 10%;
+    background: linear-gradient(rgba(21, 106, 149, 0.8), rgba(255,255,255,0.5));
+}
+.about:hover{
+    background-color: rgb(146, 160, 16);
+    transition: 1s;
+    box-shadow: #1e0e5d;
+}
+.about h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(147, 248, 89);
+}
+.about strong{
+    margin-top: 5%;
+}
+.about label{
+    margin-top: 5%;
+}
+.about-me{
+    width:600px;
+    height: 600px;
+    border: 5px solid;
+    border-radius: 50%;
+    margin-left: 20%;
+    margin-top: 9%;
+    background: linear-gradient(rgba(198, 21, 142, 0.8), rgba(216, 19, 19, 0.5));
+}
+.about-me p{
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(147, 248, 89);
+    text-shadow: 0 0 10px rgba(243, 89, 89, 0.5);
+    margin-top: 30%;
+    margin-bottom: 30%;
+}
+.about-me:hover{
+    background-color: #920a0e;
+    transition: 1s;
+    box-shadow: #1e0e5d;
+    border:none;
+
+}
+dd{
+    margin-top: 40px;
+    color:#920a0e;
+}
+dialog{
+    margin-top:30px;
+    color:aqua;
+}
+legend{
+    align-items: center;
+    border: 1px solid #1e0e5d;
+    margin-left: 500px;
+}
+.fieldset{
+    align-items: center;
+    margin-left: 600px;
+}
